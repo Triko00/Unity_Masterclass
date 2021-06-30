@@ -15,11 +15,11 @@ D:/Workspace/Unity/New games/CodelessGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64623
+51376
 Successfully changed project path to: D:/Workspace/Unity/New games/CodelessGame
 D:/Workspace/Unity/New games/CodelessGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 121.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 68.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path D:/Games/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,133 +35,203 @@ Initialize mono
 Mono path[0] = 'D:/Games/Unity/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Games/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Games/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Games/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001011 seconds.
+Registered in 0.001049 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.458 seconds
+- Completed reload, in  1.599 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002152 seconds.
+Registered in 0.002178 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.881 seconds
+- Completed reload, in  0.893 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.0 MB.
 System memory in use after: 98.2 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3117.
-Total: 2.804400 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.194800 ms MarkObjects: 2.219200 ms  DeleteObjects: 0.059100 ms)
+Total: 2.461000 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.036700 ms  DeleteObjects: 0.058600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/mixkit-auditorium-moderate-applause-and-cheering-502.wav
-  artifactKey: Guid(d21525ea864c30346a2432a19fdfae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mixkit-auditorium-moderate-applause-and-cheering-502.wav using Guid(d21525ea864c30346a2432a19fdfae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4eb84c8d3baa00e7682b27a7e810e3') in 0.101328 seconds 
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Swirls_Small.fbx
+  artifactKey: Guid(ec8da4f39c5eb934893a42ddb1cd191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Swirls_Small.fbx using Guid(ec8da4f39c5eb934893a42ddb1cd191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58831b8e4de6f353b5a38fe8ca70be0') in 0.350726 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.076336 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(6e2e3ab6675181045990fb5d71276d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(6e2e3ab6675181045990fb5d71276d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded237989ba6a3d374f89d2f20aef76') in 0.006009 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002069 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2658 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3129.
-Total: 2.178700 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.132900 ms MarkObjects: 1.813800 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002121 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2658 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3132.
-Total: 2.181300 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.124700 ms MarkObjects: 1.833700 ms  DeleteObjects: 0.013500 ms)
-
+  Time since last request: 0.000264 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials
+  artifactKey: Guid(3c4bf04abe207cd458b94b507d0d169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials using Guid(3c4bf04abe207cd458b94b507d0d169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc6dd3c541f17943fbb2b092cbef136') in 0.033609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 698.318059 seconds.
-  path: Assets/Audio/Slimecicle 'I'm Still Standing' kazoo cover.mp3
-  artifactKey: Guid(e6181ea8c46d3514f987f97a978215e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Slimecicle 'I'm Still Standing' kazoo cover.mp3 using Guid(e6181ea8c46d3514f987f97a978215e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0a67b85c0f14e228f47924a546d362') in 0.064547 seconds 
+  Time since last request: 0.000187 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Clouds_cumulonimbus.fbx
+  artifactKey: Guid(84bc9d52f9a093247beae982bd6c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Clouds_cumulonimbus.fbx using Guid(84bc9d52f9a093247beae982bd6c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb124e7fc3ec65881bebfbc4d349363') in 0.031647 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002143 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2658 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3136.
-Total: 1.988900 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.122300 ms MarkObjects: 1.655500 ms  DeleteObjects: 0.013800 ms)
-
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_cumulonimbus.mat
+  artifactKey: Guid(2fa1edf430f612945a70dd86b50e2479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_cumulonimbus.mat using Guid(2fa1edf430f612945a70dd86b50e2479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff20b445b3dfd2746628d512491943c3') in 0.272103 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003137 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2658 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 101.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3139.
-Total: 2.144400 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.127800 ms MarkObjects: 1.771500 ms  DeleteObjects: 0.024100 ms)
-
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Fluffy.fbx
+  artifactKey: Guid(a6acf282455bcbe49b74fd34fff0a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Fluffy.fbx using Guid(a6acf282455bcbe49b74fd34fff0a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0c7fed48e48930a409c1e4d5244a44') in 0.023876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_cumulus_puffy.mat
+  artifactKey: Guid(4ebb047424c76254d96e701ec6552c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_cumulus_puffy.mat using Guid(4ebb047424c76254d96e701ec6552c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347389d28da3cd8f328bd6a0ee73e59') in 0.015389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_Swirls.mat
+  artifactKey: Guid(012ff92e38d62cc49959d9c8454d59b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_Swirls.mat using Guid(012ff92e38d62cc49959d9c8454d59b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3695e2088d767e13edee4f9ad2c1acaa') in 0.018227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Med.fbx
+  artifactKey: Guid(74b8105a60af1c84394ac279e7081b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Med.fbx using Guid(74b8105a60af1c84394ac279e7081b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e288ea26ecf333ed95541779e3ba88c9') in 0.031137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_Strato.mat
+  artifactKey: Guid(3caf37f89b2b5444ca6a473c8a1d70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_Strato.mat using Guid(3caf37f89b2b5444ca6a473c8a1d70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc7aa7b24398a13488d0640006c5f8d') in 0.017558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials/Cloud_cumulus.mat
+  artifactKey: Guid(6b9f3ceb7b8a4494b81c12bb67f6a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials/Cloud_cumulus.mat using Guid(6b9f3ceb7b8a4494b81c12bb67f6a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1d36258f43df6f818ed1cba80aeed0') in 0.019702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus.fbx
+  artifactKey: Guid(6e253dc59c001e44ab9d35ee01215549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus.fbx using Guid(6e253dc59c001e44ab9d35ee01215549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7b81876c297030bc22a770015fe115') in 0.030851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Strato.fbx
+  artifactKey: Guid(85c7b36c43c3b5d4bb144cc09fc55f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Strato.fbx using Guid(85c7b36c43c3b5d4bb144cc09fc55f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4706942078411b1a8b5c82c1e10c9a33') in 0.023449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_stratus.mat
+  artifactKey: Guid(032d8fc51acc39b4dae762d59ed273fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Materials/Clouds_stratus.mat using Guid(032d8fc51acc39b4dae762d59ed273fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9bd8340571b4e257307b63e1b38d2c') in 0.014877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Swirls.fbx
+  artifactKey: Guid(a546d0066a2fa09418bbc5158bf3fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Swirls.fbx using Guid(a546d0066a2fa09418bbc5158bf3fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b41c97bac0bcca3c03bcf6de5ab9a63') in 0.027179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Clouds_stratus.fbx
+  artifactKey: Guid(e0f44c853e3967d4ca02c833371c7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Clouds_stratus.fbx using Guid(e0f44c853e3967d4ca02c833371c7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04d802df6a9ef491752c2ea0491f34c') in 0.027044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3LE Low Poly Cloud Pack
+  artifactKey: Guid(50c9e24f47625e94ebb064caf8b2f4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack using Guid(50c9e24f47625e94ebb064caf8b2f4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b17be579e78ccc7ac26ba2483a21c9d') in 0.010350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models
+  artifactKey: Guid(852c4fbed6faab340add9cbaa3092d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models using Guid(852c4fbed6faab340add9cbaa3092d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62cc7cdea9b812317909176fbf8a969') in 0.009861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220.066915 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs
+  artifactKey: Guid(b924b28d3c8aaba42af99c9ff2212c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs using Guid(b924b28d3c8aaba42af99c9ff2212c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10abc9ae459019a2319926b216b0757') in 0.007658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052164 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulonimbus_G1.prefab
+  artifactKey: Guid(7a7ada80b7910bb47aa7c5434361abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulonimbus_G1.prefab using Guid(7a7ada80b7910bb47aa7c5434361abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8540e7bd73da152c6244709399a56f') in 0.020233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulonimbus_G2.prefab
+  artifactKey: Guid(20822131f7a068849967c4eb0328c80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulonimbus_G2.prefab using Guid(20822131f7a068849967c4eb0328c80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae922016696616a7fd06e3cbb6505969') in 0.014096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Stratus_G2.prefab
+  artifactKey: Guid(bcea47ee6f529ae49bd4e17c7203013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Stratus_G2.prefab using Guid(bcea47ee6f529ae49bd4e17c7203013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb6050dfe58f9c62ec325af6eae5390') in 0.014523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Swirls_G2.prefab
+  artifactKey: Guid(89b3a320a09b72848bd1a24f275e683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Swirls_G2.prefab using Guid(89b3a320a09b72848bd1a24f275e683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc6b1f3438c70a0da996f77aa2fdfc8') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G2.prefab
+  artifactKey: Guid(79f3726e667d7254296b8aef52d0f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G2.prefab using Guid(79f3726e667d7254296b8aef52d0f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c1bd28dc61f49b9ec957b0782f5488') in 0.012741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G1.prefab
+  artifactKey: Guid(9ee1a2ad264aa2040bef16ca093d6046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G1.prefab using Guid(9ee1a2ad264aa2040bef16ca093d6046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bf7033657e52d3f4846e5bd21a9326') in 0.016221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulus_G2.prefab
+  artifactKey: Guid(e5a9e0b66bb8a8b47a28819231a34fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulus_G2.prefab using Guid(e5a9e0b66bb8a8b47a28819231a34fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c3c0bd3b15cfe223b2a3cbe4730cbc') in 0.016963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Swirls_G1.prefab
+  artifactKey: Guid(b94cc7cff6b6e2645a5e7c1ce686314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Swirls_G1.prefab using Guid(b94cc7cff6b6e2645a5e7c1ce686314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79809cdf096d6aa607a8da2ccc651b07') in 0.017324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulus_G1.prefab
+  artifactKey: Guid(decc2ba5add7b984aab134a07b436422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulus_G1.prefab using Guid(decc2ba5add7b984aab134a07b436422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b10644c4b354c32d9a920cd02f9b403') in 0.040712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Stratus_G1.prefab
+  artifactKey: Guid(01bebc0732355504095ed95d90508654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Prefabs/Clouds_Stratus_G1.prefab using Guid(01bebc0732355504095ed95d90508654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb7e19971603ed7bb18022bcbec949a') in 0.013933 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
