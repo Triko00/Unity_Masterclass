@@ -1,5 +1,20 @@
+ball gaem/Library/Artifacts/
+ball gaem/Library/PackageCache/
+ball gaem/Library/StateCache/
+ball gaem/Library/ShaderCache/
+ball gaem/Library/Bee/artifacts/
+ball gaem/Logs/
+
 CodelessGame/Library/Artifacts/
 CodelessGame/Library/PackageCache/
 CodelessGame/Library/StateCache/
 CodelessGame/Library/ShaderCache/
 CodelessGame/Library/Bee/artifacts/
+CodelessGame/Logs/
+
+MyFirstCode/Library/Artifacts/
+MyFirstCode/Library/PackageCache/
+MyFirstCode/Library/StateCache/
+MyFirstCode/Library/ShaderCache/
+MyFirstCode/Library/Bee/artifacts/
+MyFirstCode/Logs/
