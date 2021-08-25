@@ -7,14 +7,17 @@ public class GameLogic : MonoBehaviour
 {
     public InputField userInput;
     public Text gameLabel;
+    public int minValue;
+    public int maxValue;
+    public Button gameButton;
 
-
-    public int randomNum;
+    private int randomNum;
 
     // Start is called before the first frame update
     void Start()
     {
-        randomNum = 10;
+        randomNum = GetRandomNumber(minValue, maxValue);
+        gameLabel.text = "scale: " + minValue + "-" + (maxValue - 1) + ".";
     }
 
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class GameLogic : MonoBehaviour
             if (answer == randomNum)
             {
                 gameLabel.text = "wow";
+                gameButton.interactable = false;
             }
             else if (answer < randomNum)
             {
@@ -48,6 +52,12 @@ public class GameLogic : MonoBehaviour
         {
             gameLabel.text = "uuuh, im not a mind reader.";
         }
+    }
+
+    private int GetRandomNumber(int min, int max)
+    {
+        int random = Random.Range(min, max);
+        return random;
     }
 
 }
