@@ -25,3 +25,10 @@ GuessTheNumber/Library/StateCache/
 GuessTheNumber/Library/ShaderCache/
 GuessTheNumber/Library/Bee/artifacts/
 GuessTheNumber/Logs/
+
+HangMan/Library/Artifacts/
+HangMan/Library/PackageCache/
+HangMan/Library/StateCache/
+HangMan/Library/ShaderCache/
+HangMan/Library/Bee/artifacts/
+HangMan/Logs/
