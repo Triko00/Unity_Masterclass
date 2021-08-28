@@ -313,7 +313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &316991941
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -519,6 +519,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeField: {fileID: 1184037097}
+  hangMan:
+  - {fileID: 476306127}
+  - {fileID: 1428559905}
+  - {fileID: 462899749}
+  - {fileID: 1156048307}
+  - {fileID: 1309404279}
+  - {fileID: 316991940}
+  winText: {fileID: 629600662}
+  loseText: {fileID: 2017149563}
   wordToFindField: {fileID: 1968605171}
 --- !u!4 &388424714
 Transform:
@@ -552,7 +561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &462899750
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -649,7 +658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &476306128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1367,7 +1376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1156048308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1578,7 +1587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1309404280
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1772,7 +1781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1428559906
 MeshCollider:
   m_ObjectHideFlags: 0
