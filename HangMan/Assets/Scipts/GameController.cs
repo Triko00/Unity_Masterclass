@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class GameController : MonoBehaviour
 {
@@ -9,9 +10,11 @@ public class GameController : MonoBehaviour
     public GameObject[] hangMan;
     public GameObject winText;
     public GameObject loseText;
+    public GameObject replayButton;
     public Text wordToFindField;
     private float time;
-    private string[] wordsLocal = { "TERRARIA", "MINECRAFT", "APEX LEGENDS", "FORTNITE", "GENSHIN IMPACT", "FARCRY", "KARLSON", "WARCRAFT", "SPELLBREAK", "TITANFALL", "CALL OF DUTY" };
+    //private string[] wordsLocal = { "TERRARIA", "MINECRAFT", "APEX LEGENDS", "FORTNITE", "GENSHIN IMPACT", "FARCRY", "KARLSON", "WARCRAFT", "SPELLBREAK", "TITANFALL", "CALL OF DUTY" };
+    private string[] words = File.ReadAllLines(@"Assets/Texts/Words.txt");
     private string chosenWord;
     private string hiddenWord;
     private int fails;
@@ -26,7 +29,7 @@ public class GameController : MonoBehaviour
         //    Debug.Log(wordsLocal[i]);
         //}
 
-        chosenWord = wordsLocal[Random.Range(0, wordsLocal.Length)];
+        chosenWord = words[Random.Range(0, words.Length)];
 
         for (int i = 0; i < chosenWord.Length; i++)
         {
@@ -91,11 +94,13 @@ public class GameController : MonoBehaviour
             if(fails == hangMan.Length)
             {
                 loseText.SetActive(true);
+                replayButton.SetActive(true);
                 gameEnd = true;
             }
             if(!hiddenWord.Contains("-"))
             {
                 winText.SetActive(true);
+                replayButton.SetActive(true);
                 gameEnd = true;
             }
         }
