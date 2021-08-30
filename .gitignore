@@ -32,3 +32,10 @@ HangMan/Library/StateCache/
 HangMan/Library/ShaderCache/
 HangMan/Library/Bee/artifacts/
 HangMan/Logs/
+
+SpaceInvaders/Library/Artifacts/
+SpaceInvaders/Library/PackageCache/
+SpaceInvaders/Library/StateCache/
+SpaceInvaders/Library/ShaderCache/
+SpaceInvaders/Library/Bee/artifacts/
+SpaceInvaders/Logs/
